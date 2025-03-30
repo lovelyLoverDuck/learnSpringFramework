@@ -1,21 +1,21 @@
 package com.in28minutes.learn_spring_framework.game;
 
 public class PacmanGame implements GamingConsole {
-	
+
 	public void up() {
-		System.out.println("1");
+		System.out.println("Up");
 	}
 
 	public void down() {
-		System.out.println("2");
+		System.out.println("Down");
 	}
 
 	public void left() {
-		System.out.println("3");
+		System.out.println("Left");
 	}
 
 	public void right() {
-		System.out.println("4");
+		System.out.println("Right");
 	}
 
 }

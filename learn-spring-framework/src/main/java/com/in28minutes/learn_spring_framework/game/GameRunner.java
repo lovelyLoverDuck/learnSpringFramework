@@ -1,9 +1,9 @@
 package com.in28minutes.learn_spring_framework.game;
 
-public class GameRuner {
+public class GameRunner {
 	private GamingConsole game;
 
-	public GameRuner(GamingConsole game) {
+	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 
