@@ -6,7 +6,7 @@ import com.in28minutes.learn_spring_framework.game.PacmanGame;
 import com.in28minutes.learn_spring_framework.game.SuperContraGame;
 
 public class App01GamingBasicJava {
-
+//test
 	public static void main(String[] args) {
 
 		var game = new MarioGame();
