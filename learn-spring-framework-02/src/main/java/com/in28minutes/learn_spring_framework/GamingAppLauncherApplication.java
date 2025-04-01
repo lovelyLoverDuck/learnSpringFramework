@@ -10,7 +10,7 @@ import com.in28minutes.learn_spring_framework.game.GamingConsole;
 
 @Configuration
 @ComponentScan("com.in28minutes.learn_spring_framework.game")
-public class App03GamingSpringBeans {
+public class GamingAppLauncherApplication {
 
 //	@Bean
 //	public GameRunner gameRunner(GamingConsole game) {
@@ -20,7 +20,7 @@ public class App03GamingSpringBeans {
 //	}
 
 	public static void main(String[] args) {
-		try (var context = new AnnotationConfigApplicationContext(App03GamingSpringBeans.class)) {
+		try (var context = new AnnotationConfigApplicationContext(GamingAppLauncherApplication.class)) {
 
 			context.getBean(GamingConsole.class).up();
 			context.getBean(GameRunner.class).run();
